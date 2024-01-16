@@ -15,8 +15,10 @@ align-items: center;
 }
 .box{
     background-color:antiquewhite;
-    height: 250px;
-    width: 400px;
+    /* height: 250px;
+    width: 400px; */
+    height:fit-content ;
+    width: fit-content;
     padding: 50px;
     border-radius: 60px 10px 60px 10px;
     box-shadow: 5px 5px 12px  ;
@@ -45,4 +47,14 @@ button{
     color: white;
     font-weight: bold;
     cursor: pointer;
+}
+
+@media screen and (min-width:300px) and (max-width : 400px) {
+    h1
+    {
+        font-size: 40px;
+    }
+    button{
+        font-size: 14px;
+    }
 }
